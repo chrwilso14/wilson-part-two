@@ -1,5 +1,5 @@
 //Declaring some variables
-let rain = "*";
+let rain = " * ";
 let grain = 50;
 let regularFert = 1.1;
 let premiumFert = 1.15;
@@ -25,7 +25,7 @@ if(rainfall<10){
 
 }else
 
-if(rainfall==10){        //if "rainfall" = 10, then nothing is decreased & prompt 2
+if(rainfall>=10 && rainfall<=19){        //if "rainfall" = 10, then nothing is decreased & prompt 2
   var cropYield = grain;
   var fertilizer = window.prompt("Did you use fertilizer?");
   }
